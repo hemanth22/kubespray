@@ -3,5 +3,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      interval: "daily"
-    labels: [ "dependencies" ]
+      interval: "weekly"
+    labels:
+      - dependencies
+      - release-note-none
